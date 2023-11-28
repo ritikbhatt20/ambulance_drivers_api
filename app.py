@@ -2,14 +2,14 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-ambulances_list = [{"ambulanceID": 1, "driverName": "John Doe", "latitude": "37.7749", "longitude": "-122.4194",
+ambulances_list = [{"ambulanceID": 1, "driverName": "Akshay Singh", "latitude": "28.759705", "longitude": "77.500977",
                     "availability": "true", "phoneNo": "6397386678",
                     "walletAddress": "0x62524CCFa73835b4E138caE54984B236454Bac62"},
-                   {"ambulanceID": 2, "driverName": "John Doe", "latitude": "37.7749", "longitude": "-122.4194",
-                    "availability": "true", "phoneNo": "6397386678",
+                   {"ambulanceID": 2, "driverName": "Eeshwar Pandey", "latitude": "28.922418", "longitude": "77.651076",
+                    "availability": "true", "phoneNo": "9656354456",
                     "walletAddress": "0x62524CCFa73835b4E138caE54984B236454Bac62"},
-                   {"ambulanceID": 3, "driverName": "John Doe", "latitude": "37.7749", "longitude": "-122.4194",
-                    "availability": "true", "phoneNo": "6397386678",
+                   {"ambulanceID": 3, "driverName": "Shrey Dixit", "latitude": "28.923248", "longitude": "77.641081",
+                    "availability": "true", "phoneNo": "9223411297",
                     "walletAddress": "0x62524CCFa73835b4E138caE54984B236454Bac62"}]
 
 
