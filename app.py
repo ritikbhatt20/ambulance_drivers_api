@@ -13,6 +13,11 @@ ambulances_list = [{"ambulanceID": 1, "driverName": "Akshay Singh", "latitude": 
                     "walletAddress": "0x62524CCFa73835b4E138caE54984B236454Bac62"}]
 
 
+@app.route('/')
+def home():
+    return "Hello World here"
+
+
 @app.route('/ambulances', methods=['GET', 'POST'])
 def ambulances():
     if request.method == 'GET':
